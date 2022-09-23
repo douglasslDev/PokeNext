@@ -2,8 +2,10 @@ import * as Styled from "./styles";
 
 
 
-export const Footer =  ()=> {
+ const Footer =  ()=> {
   return (
     <Styled.Container>@Pokedex</Styled.Container>
   )}
   ;
+
+  export default Footer;

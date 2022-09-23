@@ -1,5 +1,4 @@
-import Card from  "./components/card"
-import About from  "./components/about/about"
+import Card from  "./../components/card"
 import * as Styled from "../styles/styles";
 
 

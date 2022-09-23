@@ -50,6 +50,7 @@ const Pokemon = ({ pokemon }) => {
           ))}
         </Styled.TypePokemon>
       </Styled.TypeContainer>
+      
       <Styled.DicesContainer>
         <Styled.HeightContainer>
           <Styled.HeightTitle> Altura:</Styled.HeightTitle>
@@ -62,6 +63,7 @@ const Pokemon = ({ pokemon }) => {
           <Styled.WidthPokemon>{pokemon.weight / 10}Kg</Styled.WidthPokemon>
         </Styled.WidthContainer>
       </Styled.DicesContainer>
+      
       <Styled.Back>
       <Link  href={`http://localhost:3000/`}><a >Voltar</a></Link>
       </Styled.Back>
