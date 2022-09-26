@@ -1,5 +1,5 @@
 import Image from "next/image";
-import * as Styled from "./styles";
+import * as Styled from "../styles/pokemonStyles";
 import Link from "next/link";
 
 export const getStaticPaths = async () => {

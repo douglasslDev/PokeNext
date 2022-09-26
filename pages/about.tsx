@@ -1,4 +1,4 @@
-import * as Styled from "./styles";
+import * as Styled from "../styles/aboutStyles";
 import Image from "next/image";
 
 export default function About  () {

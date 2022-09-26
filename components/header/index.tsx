@@ -1,6 +1,7 @@
 import * as Styled from "./styles";
 import Link from "next/link";
 import Image from "next/image";
+import About from "../../pages/about";
 export const Header =  ()=> {
   return (
     <Styled.Container>
@@ -16,7 +17,7 @@ export const Header =  ()=> {
       <Link href="/"><a>Home</a></Link>
       </Styled.Links>
       <Styled.Links>
-     <Link href="./about"><a>Sobre</a></Link>
+     <Link href="../about"><a>Sobre</a></Link>
      </Styled.Links>
      </Styled.RightContainer>
     </Styled.Container>
