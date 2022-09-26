@@ -65,7 +65,7 @@ const Pokemon = ({ pokemon }) => {
       </Styled.DicesContainer>
       
       <Styled.Back>
-      <Link  href={`http://localhost:3000/`}><a >Voltar</a></Link>
+      <Link  href={`/`}><a >Voltar</a></Link>
       </Styled.Back>
 
     </Styled.Container>
