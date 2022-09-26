@@ -17,7 +17,7 @@ import Link from "next/link";
     />
     </div>
     <Styled.PokemonDetals>
-    <Link  href={`/pokemon/${pokemon.id}`}><a >Detalhes</a></Link>
+    <Link  href={`/${pokemon.id}`}><a >Detalhes</a></Link>
 
     </Styled.PokemonDetals>
     </Styled.CardContainer>
