@@ -1,8 +1,6 @@
 import * as Styled from "./styles";
 import Link from "next/link";
 import Image from "next/image";
-
-
 export const Header =  ()=> {
   return (
     <Styled.Container>
@@ -18,11 +16,10 @@ export const Header =  ()=> {
       <Link href="/"><a>Home</a></Link>
       </Styled.Links>
       <Styled.Links>
-     <Link href="/components/about/about"><a>sobre</a></Link>
+     <Link href="./about"><a>Sobre</a></Link>
      </Styled.Links>
      </Styled.RightContainer>
     </Styled.Container>
   );
 };
-
 export default Header;

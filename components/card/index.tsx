@@ -3,7 +3,6 @@ import * as Styled from "./styles";
 import Image from "next/image";
 import Link from "next/link";
 
-
  const Card =  ({pokemon})=> {
   return (
     <Styled.CardContainer> 
